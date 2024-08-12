@@ -1,3 +1,5 @@
+# Scrimba - Airbnb Clone solution
+This is a solution to the Airbnb Clone project on [Scrimba](https://v2.scrimba.com/learn-react-c0e).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

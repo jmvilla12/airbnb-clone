@@ -8,7 +8,7 @@ export default function Card(props) {
     
     return (
       <div className="card">
-        {badgeText !== 0 && <div className='card--badge'>{badgeText}</div>}
+        {badgeText && <div className='card--badge'>{badgeText}</div>}
         <img src={require(`../assets/${props.coverImg}`)}
         className="card--image"
         alt="card"/>

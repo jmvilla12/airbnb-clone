@@ -64,16 +64,13 @@ h2 {
     margin-top: 0px;
 }
 
-.card {
-    grid-area: M2;
-    padding: 20px;
-}
-
 .cards-list {
+    grid-area: M2;
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+    padding: 0px 20px;
 }
 
 .card {
