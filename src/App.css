@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Popins', sans-serif;
+}
+
+.gray {
+    color: #918E9B
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gridContainer {
+    width: 100%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:    "N N N N N"
+                            "M1 M1 M1 M1 M1"
+                            "M2 M2 M2 M2 M2";
+}
+
+nav {
+    grid-area: N;
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+.hero {
+    grid-area: M1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.hero-pic {
+    max-width: 80%;
+    display: flex;
+    align-self: center;
+}
+
+.hero-header {
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    margin-top: 0px;
+}
+
+.card {
+    grid-area: M2;
+    padding: 20px;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 175px;
+    font-size: 0.75rem;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    max-height: 232px;
+    object-fit: cover;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+.card--price {
+    margin-top: auto;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
