@@ -2,7 +2,16 @@
 This is a solution to the Airbnb Clone project on [Scrimba](https://v2.scrimba.com/learn-react-c0e).
 
 ## Table of contents
-- [Overview](#Overview)
+
+- [Overview](#overview)
+  - [Requirements](#requirements)
+  - [Screenshot](#screenshot)
+  - [Getting Started with Create React App](#getting-started-with-create-react-app)
+- [Available Scripts](#available-scripts)
+- [My process](#my-process)
+  - [Technologies used](#technologies-used)
+  - [What I Learnt](#what-i-learnt)
+- [Author](#author)
 
 ## Overview
 
